@@ -30,3 +30,7 @@ function disable() {
    baTime.destroy();
    baTime = null;
 }
+
+function init() {
+   return new BaTimeExtension();
+}
